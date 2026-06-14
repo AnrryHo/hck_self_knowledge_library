@@ -1,0 +1,30 @@
+{
+  "knowledge_root": ".",
+  "supported_extensions": [
+    ".md",
+    ".markdown",
+    ".txt"
+  ],
+  "ignored_directories": [
+    ".git",
+    ".agents",
+    ".codex",
+    "__pycache__",
+    "raw",
+    "notes",
+    "wiki",
+    "briefs",
+    "reviews",
+    "scripts",
+    "reference-articles"
+  ],
+  "related_threshold": 4,
+  "tag_score": 2,
+  "keyword_score": 1,
+  "title_keyword_score": 1,
+  "project_tags": [
+    "项目",
+    "项目管理",
+    "fuxi"
+  ]
+}
