@@ -1,6 +1,6 @@
 # fuxi 知识库索引
 
-> 最近更新：2026-06-21 23:05
+> 最近更新：2026-06-24 15:48
 
 | 标题 | 文件 | 类型 | 标签 | 摘要 | 相关主题 | 复习知识点 | 复习状态 | 创建时间 |
 |---|---|---|---|---|---|---|---|---|
@@ -27,12 +27,14 @@
 | 大模型本地部署保姆级教程 | [2026-06-21-大模型本地部署保姆级教程.md](notes/2026-06-21-大模型本地部署保姆级教程.md) | source_note | 大模型部署, 本地模型, Ollama, LM Studio, 源码部署 | 原文链接：https://blog.csdn.net/2401_85373898/article/details/142737208 | LM Studio, Ollama, 大模型部署, 本地模型, 源码部署 | CPU 部署与 GPU 部署, 应用部署与源码部署, Ollama 本地模型运行流程, LM Studio 模型选择与加载, 源码部署环境要求, 本地大模型硬件约束 | candidate | 2026-06-21 |
 | 服务器上部署大模型（Ubuntu 24.04.3） | [2026-06-21-服务器上部署大模型-ubuntu24-Qwen7B.md](notes/2026-06-21-服务器上部署大模型-ubuntu24-Qwen7B.md) | source_note | 大模型部署, 服务器部署, Qwen, FastAPI, Streamlit, Ubuntu | 原文链接：https://blog.csdn.net/2401_84059420/article/details/158385498 | FastAPI, Qwen, Streamlit, Ubuntu, 大模型部署, 服务器部署 | Conda 大模型运行环境, PyTorch 与 CUDA 可用性检查, Qwen-7B-Chat 模型下载, FastAPI 封装本地模型, 后台运行模型服务, Streamlit 前端调用模型 API | candidate | 2026-06-21 |
 | 连续批处理与迭代级调度：LLM 推理服务的调度革命 | [2026-06-21-连续批处理与迭代级调度.md](notes/2026-06-21-连续批处理与迭代级调度.md) | source_note | 大模型部署, LLM 推理, 推理优化, 调度系统 | 文章梳理了 LLM 在线推理调度从 Static Batching、Dynamic Batching 到 Continuous Batching 的演进。核心… | LLM 推理, 大模型部署, 推理优化, 调度系统 | Prefill 与 Decode 的计算特性差异, 连续批处理与迭代级调度, PagedAttention 与 KV Cache 管理, Chunked Prefill 的延迟吞吐权衡, Prefill-Decode 分离架构 | candidate | 2026-06-21 |
+| Codex Cloud 云端任务工作流 | [2026-06-24-Codex-Cloud-云端任务工作流.md](notes/2026-06-24-Codex-Cloud-云端任务工作流.md) | source_note | Codex, AI编程, 云端开发, 工作流 | 这篇文章介绍 Codex Cloud：通过浏览器连接 GitHub，把代码修改、测试和 PR 生成放到 OpenAI 云端隔离容器中完成。核心价值是免本地环境… | AI编程, Codex, 云端开发, 工作流 | Codex Cloud 任务流水线, 云端环境配置, Agent 网络白名单, 云端与本地工作流取舍 | candidate | 2026-06-24 |
+| Codex 斜杠命令与快捷键 | [2026-06-24-Codex-斜杠命令与快捷键.md](notes/2026-06-24-Codex-斜杠命令与快捷键.md) | source_note | Codex, AI编程, CLI, 工作流 | 这篇文章把 Codex 的斜杠命令和快捷键视为“会话控制台”：它们不是给模型派活，而是控制 Codex 程序本身，例如切模型、查状态、清上下文、审 diff、… | AI编程, CLI, Codex, 工作流 | Codex 斜杠命令, CLI 会话控制, Codex 快捷键, IDE Codex 命令面板 | candidate | 2026-06-24 |
 
 ## 主题页
 
-- [_自动主题索引](wiki/_自动主题索引.md)
 - [Codex](wiki/Codex.md)
 - [RAG](wiki/RAG.md)
+- [_自动主题索引](wiki/_自动主题索引.md)
 - [大模型部署](wiki/大模型部署.md)
 - [机器学习](wiki/机器学习.md)
 - [梯度下降](wiki/梯度下降.md)
