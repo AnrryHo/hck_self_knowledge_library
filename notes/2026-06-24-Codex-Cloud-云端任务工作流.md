@@ -3,7 +3,7 @@ title: Codex Cloud 云端任务工作流
 type: source_note
 source: https://coding.stormzhang.ai/codex/10-cloud.html
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-27
 tags:
   - Codex
   - AI编程
@@ -17,6 +17,10 @@ keywords:
 related:
   - 2026-06-14-Codex全解-视频文档-46bd05f5565d.md
   - 2026-06-24-Codex-斜杠命令与快捷键.md
+  - 2026-06-25-Claude-Code-如何工作.md
+  - 2026-06-25-Claude-Code-简介.md
+  - 2026-06-27-Claude-Code-交互界面与快捷键.md
+  - 2026-06-27-Claude-Code-项目结构.md
 review:
   status: candidate
   concepts:

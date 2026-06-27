@@ -1,6 +1,6 @@
 # fuxi 知识库索引
 
-> 最近更新：2026-06-24 15:48
+> 最近更新：2026-06-27 14:56
 
 | 标题 | 文件 | 类型 | 标签 | 摘要 | 相关主题 | 复习知识点 | 复习状态 | 创建时间 |
 |---|---|---|---|---|---|---|---|---|
@@ -29,12 +29,19 @@
 | 连续批处理与迭代级调度：LLM 推理服务的调度革命 | [2026-06-21-连续批处理与迭代级调度.md](notes/2026-06-21-连续批处理与迭代级调度.md) | source_note | 大模型部署, LLM 推理, 推理优化, 调度系统 | 文章梳理了 LLM 在线推理调度从 Static Batching、Dynamic Batching 到 Continuous Batching 的演进。核心… | LLM 推理, 大模型部署, 推理优化, 调度系统 | Prefill 与 Decode 的计算特性差异, 连续批处理与迭代级调度, PagedAttention 与 KV Cache 管理, Chunked Prefill 的延迟吞吐权衡, Prefill-Decode 分离架构 | candidate | 2026-06-21 |
 | Codex Cloud 云端任务工作流 | [2026-06-24-Codex-Cloud-云端任务工作流.md](notes/2026-06-24-Codex-Cloud-云端任务工作流.md) | source_note | Codex, AI编程, 云端开发, 工作流 | 这篇文章介绍 Codex Cloud：通过浏览器连接 GitHub，把代码修改、测试和 PR 生成放到 OpenAI 云端隔离容器中完成。核心价值是免本地环境… | AI编程, Codex, 云端开发, 工作流 | Codex Cloud 任务流水线, 云端环境配置, Agent 网络白名单, 云端与本地工作流取舍 | candidate | 2026-06-24 |
 | Codex 斜杠命令与快捷键 | [2026-06-24-Codex-斜杠命令与快捷键.md](notes/2026-06-24-Codex-斜杠命令与快捷键.md) | source_note | Codex, AI编程, CLI, 工作流 | 这篇文章把 Codex 的斜杠命令和快捷键视为“会话控制台”：它们不是给模型派活，而是控制 Codex 程序本身，例如切模型、查状态、清上下文、审 diff、… | AI编程, CLI, Codex, 工作流 | Codex 斜杠命令, CLI 会话控制, Codex 快捷键, IDE Codex 命令面板 | candidate | 2026-06-24 |
+| Claude Code MCP 外部工具集成 | [2026-06-25-Claude-Code-MCP.md](notes/2026-06-25-Claude-Code-MCP.md) | source_note | Claude Code, MCP, AI编程, 工具集成 | 这篇文章介绍 Claude Code 如何通过 MCP 连接外部工具和数据源。作者把 MCP 比作扩展坞：Claude Code 默认主要处理本地文件和命令，… | AI编程, Claude Code, MCP, 工具集成 | MCP 的用途与安全边界, stdio、HTTP、SSE 三种 MCP 传输形态, MCP server 作用域 local、project、user, MCP 工具调用的批准机制 | candidate | 2026-06-25 |
+| Claude Code 如何工作 | [2026-06-25-Claude-Code-如何工作.md](notes/2026-06-25-Claude-Code-如何工作.md) | source_note | Claude Code, AI编程, Agent, 工作流 | 这篇文章解释 Claude Code 为什么能像代理一样完成任务。作者把它的工作方式概括为“想、做、看”的循环：先理解目标和当前项目状态，再调用工具执行动作，… | AI编程, Agent, Claude Code, 工作流 | Agent 的想做看循环, Claude Code 工具调用机制, AI 编程中的上下文与权限边界 | candidate | 2026-06-25 |
+| Claude Code 安装与使用 | [2026-06-25-Claude-Code-安装与使用.md](notes/2026-06-25-Claude-Code-安装与使用.md) | source_note | Claude Code, AI编程, 开发环境, CLI | 这篇文章说明 Claude Code 的安装、登录、验证、升级、卸载和常见报错处理。作者强调当前优先选择官方原生安装脚本，而不是旧的 npm 全局安装方式，因… | AI编程, CLI, Claude Code, 开发环境 | Claude Code 原生安装方式, Claude Code 账号与系统要求, CLI 工具安装排错流程 | candidate | 2026-06-25 |
+| Claude Code 简介 | [2026-06-25-Claude-Code-简介.md](notes/2026-06-25-Claude-Code-简介.md) | source_note | Claude Code, AI编程, 开发工具, 工作流 | 这篇文章介绍 Claude Code 的基本定位：它是 Anthropic 官方的命令行版 AI 编程搭档，能够读取整个项目、直接修改文件、运行命令，而不只是… | AI编程, Claude Code, 工作流, 开发工具 | Claude Code 的代理式工作方式, ChatGPT、Copilot、Cursor 与 Claude Code 的定位差异, AI 编程工具中的人机分工边界 | candidate | 2026-06-25 |
+| Claude Code 交互界面与快捷键 | [2026-06-27-Claude-Code-交互界面与快捷键.md](notes/2026-06-27-Claude-Code-交互界面与快捷键.md) | source_note | Claude Code, AI编程, CLI, 工作流 | 这篇文章介绍 Claude Code 终端交互界面的主要区域和高频键盘操作。作者把界面拆成输入框、状态行、模式/权限提示三块，并围绕 `Esc`、`Ctrl+… | AI编程, CLI, Claude Code, 工作流 | Claude Code 交互界面分区, Claude Code 高频快捷键, Claude Code 输入前缀 @ 和 !, Claude Code 多行输入方式 | candidate | 2026-06-27 |
+| Claude Code 项目结构 | [2026-06-27-Claude-Code-项目结构.md](notes/2026-06-27-Claude-Code-项目结构.md) | source_note | Claude Code, AI编程, 项目配置, 工作流 | 这篇文章解释 Claude Code 在项目目录和用户主目录中保存哪些配置。核心是区分两个位置：项目里的 `./.claude/` 跟随仓库和团队协作，用户主… | AI编程, Claude Code, 工作流, 项目配置 | Claude Code 项目级与用户级配置, .claude 目录结构, Claude Code 配置文件的 git 提交边界, Claude Code 配置优先级与合并规则 | candidate | 2026-06-27 |
 
 ## 主题页
 
+- [_自动主题索引](wiki/_自动主题索引.md)
+- [Claude Code](wiki/Claude Code.md)
 - [Codex](wiki/Codex.md)
 - [RAG](wiki/RAG.md)
-- [_自动主题索引](wiki/_自动主题索引.md)
 - [大模型部署](wiki/大模型部署.md)
 - [机器学习](wiki/机器学习.md)
 - [梯度下降](wiki/梯度下降.md)
