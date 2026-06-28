@@ -1,6 +1,6 @@
 # fuxi 知识库索引
 
-> 最近更新：2026-06-27 14:56
+> 最近更新：2026-06-28 13:38
 
 | 标题 | 文件 | 类型 | 标签 | 摘要 | 相关主题 | 复习知识点 | 复习状态 | 创建时间 |
 |---|---|---|---|---|---|---|---|---|
@@ -35,15 +35,46 @@
 | Claude Code 简介 | [2026-06-25-Claude-Code-简介.md](notes/2026-06-25-Claude-Code-简介.md) | source_note | Claude Code, AI编程, 开发工具, 工作流 | 这篇文章介绍 Claude Code 的基本定位：它是 Anthropic 官方的命令行版 AI 编程搭档，能够读取整个项目、直接修改文件、运行命令，而不只是… | AI编程, Claude Code, 工作流, 开发工具 | Claude Code 的代理式工作方式, ChatGPT、Copilot、Cursor 与 Claude Code 的定位差异, AI 编程工具中的人机分工边界 | candidate | 2026-06-25 |
 | Claude Code 交互界面与快捷键 | [2026-06-27-Claude-Code-交互界面与快捷键.md](notes/2026-06-27-Claude-Code-交互界面与快捷键.md) | source_note | Claude Code, AI编程, CLI, 工作流 | 这篇文章介绍 Claude Code 终端交互界面的主要区域和高频键盘操作。作者把界面拆成输入框、状态行、模式/权限提示三块，并围绕 `Esc`、`Ctrl+… | AI编程, CLI, Claude Code, 工作流 | Claude Code 交互界面分区, Claude Code 高频快捷键, Claude Code 输入前缀 @ 和 !, Claude Code 多行输入方式 | candidate | 2026-06-27 |
 | Claude Code 项目结构 | [2026-06-27-Claude-Code-项目结构.md](notes/2026-06-27-Claude-Code-项目结构.md) | source_note | Claude Code, AI编程, 项目配置, 工作流 | 这篇文章解释 Claude Code 在项目目录和用户主目录中保存哪些配置。核心是区分两个位置：项目里的 `./.claude/` 跟随仓库和团队协作，用户主… | AI编程, Claude Code, 工作流, 项目配置 | Claude Code 项目级与用户级配置, .claude 目录结构, Claude Code 配置文件的 git 提交边界, Claude Code 配置优先级与合并规则 | candidate | 2026-06-27 |
+| 001 目标检测项目 | [2026-06-28-001-目标检测项目.md](notes/2026-06-28-001-目标检测项目.md) | source_note | 目标检测, 项目结构, 为知笔记, 深度学习 | 这篇为知笔记是“目标检测从入门到精通”系列的项目总览。原文正文包含“结构”和“项目知识点”两张截图：第一张展示用户层、深度模型层、数据采集层之间的关系；第二张… | 为知笔记, 深度学习, 目标检测, 项目结构 | 目标检测项目分层结构, 目标检测项目知识点, 数据采集标注与存储, 模型服务部署 | candidate | 2026-06-28 |
+| 002目标检测简介 | [2026-06-28-002目标检测简介.md](notes/2026-06-28-002目标检测简介.md) | source_note | 目标检测, 算法分类, 为知笔记, 深度学习 | 这篇为知笔记介绍目标检测的基本分类和目标位置表示。原文正文写到“目标检测算法分类”，截图将算法分为“两步走的目标检测”和“端到端的目标检测”：前者先做区域推荐… | 为知笔记, 深度学习, 目标检测, 算法分类 | 目标检测算法分类, 两阶段目标检测, 端到端目标检测, 目标位置的表示 | candidate | 2026-06-28 |
+| 003滑动窗口方法 | [2026-06-28-003滑动窗口方法.md](notes/2026-06-28-003滑动窗口方法.md) | source_note | 目标检测, 滑动窗口, 为知笔记, R-CNN | 这篇为知笔记标题为“滑动窗口方法”，导出的 Markdown 正文主要是一张截图。截图下半部分可以辨认出“滑动窗口”“目标检测-OverFeat 模型”“目标… | R-CNN, 为知笔记, 滑动窗口, 目标检测 | 滑动窗口方法, 目标检测候选区域, OverFeat 模型, R-CNN 的区域推荐思想 | candidate | 2026-06-28 |
+| 004 rcnn算法 | [2026-06-28-004-rcnn算法.md](notes/2026-06-28-004-rcnn算法.md) | source_note | 目标检测, R-CNN, 为知笔记, 深度学习 | 这篇为知笔记介绍完整 R-CNN 架构。原文正文写到“完整的rcnn架构”，截图展示从 image 到 region proposal、warped regi… | R-CNN, 为知笔记, 深度学习, 目标检测 | R-CNN 完整结构, 候选区域生成, CNN 特征提取, SVM 分类与 bbox 回归 | candidate | 2026-06-28 |
+| 005 目标检测评估指标 | [2026-06-28-005-目标检测评估指标.md](notes/2026-06-28-005-目标检测评估指标.md) | source_note | 目标检测, 评估指标, 为知笔记, 模型评估 | 这篇为知笔记记录目标检测的评价指标。原文提到 mAP 平均准确率、准确率与召回率。截图中可以辨认出 IoU 交并比、平均精确率 mean average pr… | 为知笔记, 模型评估, 目标检测, 评估指标 | IoU 交并比, mAP 平均精确率, AP 计算, 准确率与召回率 | candidate | 2026-06-28 |
+| 006 rcnn算法总结 | [2026-06-28-006-rcnn算法总结.md](notes/2026-06-28-006-rcnn算法总结.md) | source_note | 目标检测, R-CNN, 为知笔记, 算法总结 | 这篇为知笔记总结 R-CNN 的效果和缺点。原文写到“精度较高，速度很慢，步骤繁琐”。截图可辨认出 R-CNN 在 VOC2007 数据集上的平均精度 mAP… | R-CNN, 为知笔记, 目标检测, 算法总结 | R-CNN 精度与速度权衡, R-CNN 分阶段训练, 特征文件存储开销, crop/warp 图像变形 | candidate | 2026-06-28 |
+| 007sspNet算法 | [2026-06-28-007sppnet算法.md](notes/2026-06-28-007sppnet算法.md) | source_note | 目标检测, SPPNet, 为知笔记, R-CNN | 这篇为知笔记介绍 SPPNet 算法，原文标题写作“sspNet”。原文说明 SPPNet 是对 R-CNN 的改进：R-CNN 的两千个候选框都要经过卷积，… | R-CNN, SPPNet, 为知笔记, 目标检测 | SPPNet 对 R-CNN 的改进, 候选区域到 feature map 的映射, 空间金字塔池化, SPPNet 的训练缺点 | candidate | 2026-06-28 |
+| 008fast-rcnn算法 | [2026-06-28-008fast-rcnn算法.md](notes/2026-06-28-008fast-rcnn算法.md) | source_note | 目标检测, Fast R-CNN, 为知笔记, R-CNN | 这篇为知笔记介绍 Fast R-CNN 算法。原文指出 Fast R-CNN 是对 R-CNN 的第二种改进，其中 RoI pooling 是关键。截图展示流… | Fast R-CNN, R-CNN, 为知笔记, 目标检测 | Fast R-CNN 对 R-CNN 的改进, RoI pooling, 分类与边框回归联合训练, RoI feature vector | candidate | 2026-06-28 |
+| 009 tensorboard的使用2 | [2026-06-28-009-tensorboard的使用2.md](notes/2026-06-28-009-tensorboard的使用2.md) | source_note | PyTorch, TensorBoard, 为知笔记, 可视化 | 这篇为知笔记记录 TensorBoard 中 `add_image` 的使用。原文指出 `add_image` 可以传入多种数据类型，截图示例中使用的是 nu… | PyTorch, TensorBoard, 为知笔记, 可视化 | TensorBoard add_image, 图像数据格式, numpy array 可视化 | candidate | 2026-06-28 |
+| 010 transforms的使用 | [2026-06-28-010-transforms的使用.md](notes/2026-06-28-010-transforms的使用.md) | source_note | PyTorch, torchvision, transforms, 为知笔记 | 这篇为知笔记介绍 PyTorch/torchvision 中 transforms 的基本使用。原文说明 transforms 用于对图片进行变换，使用方式是… | PyTorch, torchvision, transforms, 为知笔记 | transforms 工具创建与使用, tensor 数据类型, OpenCV 图像读取, TensorBoard 查看图像 | candidate | 2026-06-28 |
+| 011 常见的transforms1 | [2026-06-28-011-常见的transforms1.md](notes/2026-06-28-011-常见的transforms1.md) | source_note | PyTorch, torchvision, transforms, 为知笔记 | 这篇为知笔记记录常见 transforms 的第一部分。原文强调要关注图片的输入和输出，说明 `__call__` 是类的内置函数，可通过实例对象调用；还记录… | PyTorch, torchvision, transforms, 为知笔记 | transforms 的输入输出, __call__ 方法, ToTensor 使用, Normalize 归一化 | candidate | 2026-06-28 |
+| 011常见的transforms2 | [2026-06-28-011-常见的transforms2.md](notes/2026-06-28-011-常见的transforms2.md) | source_note | PyTorch, torchvision, transforms, 为知笔记 | 这篇为知笔记记录常见 transforms 的第二部分，覆盖 `Resize`、`Compose`、`RandomCrop` 和 TensorBoard 显示… | PyTorch, torchvision, transforms, 为知笔记 | Resize 图像缩放, Compose 组合变换, RandomCrop 随机裁剪, TensorBoard 显示变换结果 | candidate | 2026-06-28 |
+| 014torchvision中的数据集使用 | [2026-06-28-014-torchvision中的数据集使用.md](notes/2026-06-28-014-torchvision中的数据集使用.md) | source_note | PyTorch, torchvision, 数据集, 为知笔记 | 这篇为知笔记介绍 torchvision 中数据集的使用，重点是 datasets 与 transforms 的联合使用。原文示例使用 CIFAR10 数据集… | PyTorch, torchvision, 为知笔记, 数据集 | torchvision datasets, CIFAR10 数据集, 数据集与 transforms 联合使用, dataset_transform 参数 | candidate | 2026-06-28 |
+| 015dataloader的使用 | [2026-06-28-015-dataloader的使用.md](notes/2026-06-28-015-dataloader的使用.md) | source_note | PyTorch, DataLoader, 数据集, 为知笔记 | 这篇为知笔记介绍 DataLoader 的使用。原文区分 dataset 和 dataloader：dataset 表示数据集及数据位置，dataloader… | DataLoader, PyTorch, 为知笔记, 数据集 | Dataset 与 DataLoader 分工, batch_size 批量加载, imgs 与 targets, TensorBoard 批量图像显示 | candidate | 2026-06-28 |
+| 016 神经网络的基本骨架nn.module的使用 | [2026-06-28-016-神经网络的基本骨架nn.module的使用.md](notes/2026-06-28-016-神经网络的基本骨架nn.module的使用.md) | source_note | PyTorch, 神经网络, nn.Module, 为知笔记 | 这篇为知笔记介绍 PyTorch 神经网络的基本骨架 `nn.Module`。原文说明 nn 是神经网络的缩写，截图示例演示了继承 `nn.Module` 后… | PyTorch, nn.Module, 为知笔记, 神经网络 | nn.Module 基本骨架, 神经网络模块继承, forward 计算逻辑 | candidate | 2026-06-28 |
+| 017卷积操作 | [2026-06-28-017-卷积操作.md](notes/2026-06-28-017-卷积操作.md) | source_note | PyTorch, 卷积神经网络, 卷积操作, 为知笔记 | 这篇为知笔记介绍卷积操作。原文包含卷积和操作示意、验证卷积的代码实现、输出结果，以及 `conv2d` 卷积操作参数说明。原文记录 `input` 是输入，`… | PyTorch, 为知笔记, 卷积操作, 卷积神经网络 | 卷积运算, conv2d 参数, padding 填充, weight 与 bias | candidate | 2026-06-28 |
+| 018 神经网络-卷积层 | [2026-06-28-018-神经网络-卷积层.md](notes/2026-06-28-018-神经网络-卷积层.md) | source_note | PyTorch, 卷积神经网络, 卷积层, 为知笔记 | 这篇为知笔记介绍 PyTorch 神经网络中的卷积层。原文指出，如果输入通道为 1、输出通道为 2，则会有两个卷积核；还记录了创建神经网络代码、查看输出形状，… | PyTorch, 为知笔记, 卷积层, 卷积神经网络 | Conv2d 卷积层, 输入输出通道, 卷积输出形状, TensorBoard 显示卷积结果 | candidate | 2026-06-28 |
+| 019 神经网络-最大池化 | [2026-06-28-019-神经网络-最大池化.md](notes/2026-06-28-019-神经网络-最大池化.md) | source_note | PyTorch, 池化层, 卷积神经网络, 为知笔记 | 这篇为知笔记介绍神经网络中的最大池化。原文记录 `MaxPool2d` 参数：核心数可以设置，步长 `stride` 的默认值是核心数大小；`ceil_mod… | PyTorch, 为知笔记, 卷积神经网络, 池化层 | MaxPool2d 参数, stride 默认值, ceil_mode, 最大池化输出 | candidate | 2026-06-28 |
+| 020 非线性激活 | [2026-06-28-020-非线性激活.md](notes/2026-06-28-020-非线性激活.md) | source_note | PyTorch, 神经网络, 激活函数, 为知笔记 | 这篇为知笔记介绍非线性激活。原文指出，非线性激活可以为数据加上非线性特质，并配有代码截图。 | PyTorch, 为知笔记, 激活函数, 神经网络 | 非线性激活作用, 神经网络表达能力, 激活层代码示例 | candidate | 2026-06-28 |
+| 021 神经网络线性层及其他层介绍 | [2026-06-28-021-神经网络线性层及其他层介绍.md](notes/2026-06-28-021-神经网络线性层及其他层介绍.md) | source_note | PyTorch, 神经网络, 线性层, 为知笔记 | 这篇为知笔记介绍神经网络线性层和其他层。原文提到正则化 `normalize`，线性层 `linear layouts` 会将输入处理后输出；示例把 1966… | PyTorch, 为知笔记, 神经网络, 线性层 | 线性层 Linear, torch.flatten, normalize 正则化, 向量化输入 | candidate | 2026-06-28 |
+| 022 神经网络-搭建小实战和sequential | [2026-06-28-022-神经网络-搭建小实战和sequential.md](notes/2026-06-28-022-神经网络-搭建小实战和sequential.md) | source_note | PyTorch, 神经网络, Sequential, 为知笔记 | 这篇为知笔记记录神经网络搭建小实战和 `Sequential` 的使用。原文包含 `Sequential` 应用、模仿 CIFAR10 数据进行卷积和池化、检… | PyTorch, Sequential, 为知笔记, 神经网络 | Sequential 简化网络, CIFAR10 网络结构, 卷积与池化组合, 网络结构可视化 | candidate | 2026-06-28 |
+| 023 损失函数与反向传播 | [2026-06-28-023-损失函数与反向传播.md](notes/2026-06-28-023-损失函数与反向传播.md) | source_note | PyTorch, 损失函数, 反向传播, 为知笔记 | 这篇为知笔记介绍损失函数与反向传播。原文记录 `L1Loss` 是线性损失函数，可通过 `reduction` 参数指定损失计算方式；还提到交叉熵 `Cros… | PyTorch, 为知笔记, 反向传播, 损失函数 | L1Loss, CrossEntropyLoss, 损失函数作用, backward 反向传播 | candidate | 2026-06-28 |
+| 024 优化器1 | [2026-06-28-024-优化器1.md](notes/2026-06-28-024-优化器1.md) | source_note | PyTorch, 优化器, 模型训练, 为知笔记 | 这篇为知笔记介绍 PyTorch 优化器。原文指出优化器位于 `torch.optim` 模块下，示例是在上一节代码基础上加上优化器代码；还说明模型要对数据进… | PyTorch, 为知笔记, 优化器, 模型训练 | torch.optim 模块, 优化器使用, 训练循环, 模型多次学习 | candidate | 2026-06-28 |
+| 025 现有网络模型的使用及修改 | [2026-06-28-025-现有网络模型的使用及修改.md](notes/2026-06-28-025-现有网络模型的使用及修改.md) | source_note | PyTorch, 预训练模型, 模型修改, 为知笔记 | 这篇为知笔记介绍现有网络模型的使用和修改。原文记录可以使用 `add_module` 方法添加模型层，示例是在现有 `vgg16_true` 模型中添加一层线… | PyTorch, 为知笔记, 模型修改, 预训练模型 | 现有模型使用, add_module 添加层, VGG16 模型修改, 替换已有层 | candidate | 2026-06-28 |
+| 026 网络模型的保存与读取 | [2026-06-28-026-网络模型的保存与读取.md](notes/2026-06-28-026-网络模型的保存与读取.md) | source_note | PyTorch, 模型保存, 模型加载, 为知笔记 | 这篇为知笔记介绍网络模型的保存与读取。原文说明有方式一和方式二两种保存方式，并配有对应的两种加载模式截图。具体代码细节保存在 raw 截图中。 | PyTorch, 为知笔记, 模型保存, 模型加载 | 模型保存方式, 模型加载方式, 保存方式与加载方式对应 | candidate | 2026-06-28 |
+| 027完整的模型训练套路1 | [2026-06-28-027-完整的模型训练套路1.md](notes/2026-06-28-027-完整的模型训练套路1.md) | source_note | PyTorch, 模型训练, 训练流程, 为知笔记 | 这篇为知笔记总结完整模型训练套路。原文列出步骤：准备数据集、准备训练模型 `module`、设置训练参数、设置优化参数、设置损失函数、设置循环轮数、训练循环中… | PyTorch, 为知笔记, 模型训练, 训练流程 | 完整训练流程, 训练循环, 验证集评估, no_grad, 模型保存 | candidate | 2026-06-28 |
+| 030利用GPU训练 | [2026-06-28-030-利用GPU训练.md](notes/2026-06-28-030-利用GPU训练.md) | source_note | PyTorch, GPU训练, CUDA, 为知笔记 | 这篇为知笔记介绍 PyTorch 利用 GPU 训练。原文提到可以加 `cuda()` 方法，并应使用 `torch.cuda.is_available` 判… | CUDA, GPU训练, PyTorch, 为知笔记 | CUDA 可用性判断, cuda() 与 .to(), Colab GPU, nvidia-smi 查看配置, 训练耗时统计 | candidate | 2026-06-28 |
+| 031完整的模型验证(测试，demo)套路 | [2026-06-28-031-完整的模型验证-测试-demo套路.md](notes/2026-06-28-031-完整的模型验证-测试-demo套路.md) | source_note | PyTorch, 模型验证, 模型测试, 为知笔记 | 这篇为知笔记介绍完整模型验证、测试或 demo 的套路。原文正文明确写到“加载已经训练好的模型进行验证”，并配有一张代码截图。 | PyTorch, 为知笔记, 模型测试, 模型验证 | 加载训练好的模型, 模型验证流程, 测试 demo, 推理阶段准备 | candidate | 2026-06-28 |
+| 5.1.1了解ffmpeg 的真正作用 | [2026-06-28-5.1.1了解ffmpeg-的真正作用.md](notes/2026-06-28-5.1.1了解ffmpeg-的真正作用.md) | source_note | ffmpeg, 音视频, 为知笔记, 学习工具 | 这篇为知笔记来自“太子的音视频史诗级教程”目录，标题为“5.1.1了解ffmpeg 的真正作用”。导出的 Markdown 正文主要是一张“推荐学习工具”截图… | ffmpeg, 为知笔记, 学习工具, 音视频 | 音视频文件信息查看, 封装格式分析, 编码码流分析, YUV 播放与音频分析 | candidate | 2026-06-28 |
 
 ## 主题页
 
 - [_自动主题索引](wiki/_自动主题索引.md)
 - [Claude Code](wiki/Claude Code.md)
 - [Codex](wiki/Codex.md)
+- [PyTorch](wiki/PyTorch.md)
 - [RAG](wiki/RAG.md)
 - [大模型部署](wiki/大模型部署.md)
 - [机器学习](wiki/机器学习.md)
 - [梯度下降](wiki/梯度下降.md)
+- [目标检测](wiki/目标检测.md)
 - [线性代数](wiki/线性代数.md)
 - [线性回归](wiki/线性回归.md)
